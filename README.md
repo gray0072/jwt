@@ -1,5 +1,7 @@
 # JWT Lab
 
+**Live: [gray0072.github.io/jwt](https://gray0072.github.io/jwt/)**
+
 **JWT Lab** is an open-source developer tool for generating, decoding, and validating JSON Web Tokens (JWT) — right in the browser, with no data leaving your machine.
 
 > All processing happens client-side. Your secrets and tokens never touch a server.

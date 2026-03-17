@@ -111,17 +111,17 @@ export function AppHeader() {
         {/* Actions */}
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5, flexShrink: 0 }}>
           <Tooltip title={`Theme: ${theme}`}>
-            <IconButton size="small" onClick={handleThemeToggle} color="inherit">
+            <IconButton size="small" onClick={handleThemeToggle} sx={{ color: 'text.secondary' }}>
               <ThemeIcon mode={theme} />
             </IconButton>
           </Tooltip>
           <Tooltip title="History">
-            <IconButton size="small" onClick={toggleHistoryDrawer} color="inherit">
+            <IconButton size="small" onClick={toggleHistoryDrawer} sx={{ color: 'text.secondary' }}>
               <HistoryIcon fontSize="small" />
             </IconButton>
           </Tooltip>
           <Tooltip title="GitHub">
-            <IconButton size="small" color="inherit" component="a" href="https://github.com/gray0072/jwt" target="_blank" rel="noopener noreferrer">
+            <IconButton size="small" sx={{ color: 'text.secondary' }} component="a" href="https://github.com/gray0072/jwt" target="_blank" rel="noopener noreferrer">
               <GitHubIcon fontSize="small" />
             </IconButton>
           </Tooltip>
