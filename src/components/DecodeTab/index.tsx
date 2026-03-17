@@ -1,5 +1,5 @@
 import { useEffect, useRef, useCallback } from 'react'
-import { Box, Grid, Alert } from '@mui/material'
+import { Box, Grid2 as Grid, Alert } from '@mui/material'
 import { TokenInput } from './TokenInput'
 import { HeaderPanel } from './HeaderPanel'
 import { PayloadPanel } from './PayloadPanel'

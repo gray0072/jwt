@@ -44,7 +44,7 @@ export default function App() {
       >
         <AppHeader />
 
-        <Box sx={{ flex: 1, maxWidth: 1280, width: '100%', mx: 'auto' }}>
+        <Box sx={{ flex: 1, width: '100%' }}>
           <Fade in={activeTab === 'decode'} unmountOnExit mountOnEnter timeout={200}>
             <Box sx={{ display: activeTab === 'decode' ? 'block' : 'none' }}>
               <DecodeTab />

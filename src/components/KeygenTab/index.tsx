@@ -109,7 +109,7 @@ export function KeygenTab() {
   }
 
   return (
-    <Box sx={{ p: { xs: 2, md: 3 }, maxWidth: 860, mx: 'auto' }}>
+    <Box sx={{ p: { xs: 2, md: 3 } }}>
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
         {/* Config */}
         <SectionCard title="Key Configuration">
