@@ -17,6 +17,7 @@ import HistoryIcon from '@mui/icons-material/History'
 import LockOpenIcon from '@mui/icons-material/LockOpen'
 import BuildIcon from '@mui/icons-material/Build'
 import VpnKeyIcon from '@mui/icons-material/VpnKey'
+import GitHubIcon from '@mui/icons-material/GitHub'
 import { useAppStore, type AppTab, type ThemeMode } from '@/stores/appStore'
 import { JWT_COLORS } from '@/theme/tokens'
 
@@ -117,6 +118,11 @@ export function AppHeader() {
           <Tooltip title="History">
             <IconButton size="small" onClick={toggleHistoryDrawer} color="inherit">
               <HistoryIcon fontSize="small" />
+            </IconButton>
+          </Tooltip>
+          <Tooltip title="GitHub">
+            <IconButton size="small" color="inherit" component="a" href="https://github.com/gray0072/jwt" target="_blank" rel="noopener noreferrer">
+              <GitHubIcon fontSize="small" />
             </IconButton>
           </Tooltip>
         </Box>
